@@ -2,7 +2,14 @@
   "orgName": "Dev Hub Org",
   "edition": "Developer",
   "hasSampleData": "false",
+  "features": ["Communities"],
   "settings": {
+    "experienceBundleSettings": {
+      "enableExperienceBundleMetadata": true
+    },
+    "communitiesSettings": {
+      "enableNetworksEnabled": true
+    },
     "orgPreferenceSettings": {
       "s1DesktopEnabled": true,
       "selfSetPasswordInApi": true,
