@@ -1,0 +1,8 @@
+{
+  "appPageId" : "274d9bfe-23ff-4e0e-b431-e455390610c6",
+  "id" : "39b1994a-0dfb-4889-9bf5-4c13bcd910b9",
+  "label" : "Report Related List",
+  "routeType" : "relatedlist-00O",
+  "type" : "route",
+  "urlPrefix" : "report"
+}

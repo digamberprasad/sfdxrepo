@@ -1,0 +1,8 @@
+{
+  "appPageId" : "274d9bfe-23ff-4e0e-b431-e455390610c6",
+  "id" : "ace9b48f-2fe9-478d-967b-513f2ccc19f5",
+  "label" : "Group Related List",
+  "routeType" : "relatedlist-0F9",
+  "type" : "route",
+  "urlPrefix" : "group"
+}

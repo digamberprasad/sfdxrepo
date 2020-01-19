@@ -1,0 +1,83 @@
+{
+  "appPageId" : "274d9bfe-23ff-4e0e-b431-e455390610c6",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "54623054-1031-4648-b26f-e40221ecdc97",
+  "label" : "Report Detail",
+  "regions" : [ {
+    "id" : "aa04dd4e-e36c-45bc-9004-f055b4741800",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:reportPage",
+      "id" : "bc9ebc45-d1c2-4b0a-b15a-9fe760c7110d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c913091b-ae36-4a67-95cf-dd52ceedff87",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "askCommunityLabel" : "Ask a Question",
+        "buttonBgColor" : "",
+        "buttonBgHoverColor" : "",
+        "buttonBorderColor" : "",
+        "buttonRadius" : "0",
+        "buttonTextColor" : "",
+        "buttonTextHoverColor" : "",
+        "buttonTwoBgColor" : "",
+        "buttonTwoBgHoverColor" : "",
+        "buttonTwoBorderColor" : "",
+        "buttonTwoRadius" : "0",
+        "buttonTwoTextColor" : "",
+        "buttonTwoTextHoverColor" : "",
+        "confirmationMessage" : "Got it!",
+        "contactSupportLabel" : "Contact Support",
+        "followUpPromptLabel" : "Can we close your question?",
+        "headerLabel" : "Don't see what you're looking for?",
+        "isAskFollowPromptEnabled" : "true",
+        "isIncludeArticlesEnabled" : "false",
+        "isIncludeDiscussionsEnabled" : "true",
+        "isInitialSatisfactionPromptEnabled" : "true",
+        "isPublisherDeflectionEnabled" : "true",
+        "maxSuggestions" : "5",
+        "satisfactionPromptLabel" : "Did we help to answer your question?",
+        "showDetails" : "false",
+        "showTopics" : "true"
+      },
+      "componentName" : "siteforce:napiliFooter",
+      "id" : "68c8b617-32cc-4e86-9d9c-ac73a9e7d66e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2ea5964f-686e-422b-a58b-365589d710ac",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "description" : "",
+        "metaTags" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "acdcc23a-4ff8-41af-8df5-1cff6be4bc90",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d9727313-78b0-4591-8d38-1658ea34d358",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-00O"
+}
