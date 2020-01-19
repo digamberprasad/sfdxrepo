@@ -1,0 +1,38 @@
+{
+  "appPageId" : "274d9bfe-23ff-4e0e-b431-e455390610c6",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "9c2d8473-3199-4886-8441-b59a095a2728",
+  "label" : "Report Related List",
+  "regions" : [ {
+    "id" : "6d34c21c-2e6a-42b8-8fd7-9beb32c438ee",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "{!relationshipApiName}",
+        "showBreadCrumbs" : "true",
+        "showCustomTitle" : "false",
+        "showManualRefreshButton" : "true",
+        "showRowNumbers" : "true"
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "088fd59e-aa31-42cf-9df3-d9b68c1ed3e9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "19f94666-459a-40c8-8abf-62e5a4394a6d",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "2a0b5cab-c22a-4b2b-9736-8a18ae3a7280",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-00O"
+}
