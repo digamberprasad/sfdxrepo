@@ -1,4 +1,4 @@
-trigger AccountTrigger on AccountTrigger (before insert) {
+trigger AccountTrigger on Account (before insert) {
     System.debug('Account trigger before insert...');
 
 }
